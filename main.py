@@ -1,4 +1,6 @@
-guess_number=9
+import random 
+
+guess_number=random.randint(1,20)
 user_input= int(input('Enter a number between 1 and 20: '))
 if user_input==guess_number:
     print('Your guess is correct')
